@@ -1,0 +1,163 @@
+{
+    "name": "STRATIS Lofts",
+    "address": {
+        "address_line_1": "4230 Main St.",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19127"
+    },
+    "devices": {
+        "thermostats": [
+            {
+                "id": 1,
+                "unit": 301,
+                "model": "Warm-Me",
+                "admin_accessible": "false"
+            },
+            {
+                "id": 2,
+                "unit": 201,
+                "model": "Warm-Me",
+                "admin_accessible": "false"
+            },
+            {
+                "id": 3,
+                "unit": 202,
+                "model": "Warm-Me",
+                "admin_accessible": "false"
+            },
+            {
+                "id": 4,
+                "unit": 101,
+                "model": "Warm-Me",
+                "admin_accessible": "false"
+            },
+            {
+                "id": 5,
+                "unit": 101,
+                "model": "Warm-Me",
+                "admin_accessible": "false"
+            }
+        ],
+        "lights": [
+            {
+                "id": 1,
+                "unit": 101,
+                "model": "Bright Ideas",
+                "admin_accessible": "false"
+            },
+            {
+                "id": 2,
+                "unit": 102,
+                "model": "Bright Ideas",
+                "admin_accessible": "false"
+            },
+            {
+                "id": 3,
+                "unit": 201,
+                "model": "Bright Ideas",
+                "admin_accessible": "false"
+            },
+            {
+                "id": 4,
+                "unit": 202,
+                "model": "Bright Ideas",
+                "admin_accessible": "false"
+            },
+            {
+                "id": 5,
+                "unit": 301,
+                "model": "Bright Ideas",
+                "admin_accessible": "false"
+            },
+            {
+                "id": 6,
+                "unit": 301,
+                "model": "Sunnee",
+                "admin_accessible": "true"
+            },
+            {
+                "id": 7,
+                "unit": 101,
+                "model": "Sunnee",
+                "admin_accessible": "true"
+            },
+            {
+                "id": 8,
+                "unit": 201,
+                "model": "Sunnee",
+                "admin_accessible": "true"
+            }
+        ],
+        "locks": [
+            {
+                "id": 1,
+                "unit": 101,
+                "model": "SkeletonKey",
+                "admin_accessible": "true"
+            },
+            {
+                "id": 2,
+                "unit": 102,
+                "model": "LockNess",
+                "admin_accessible": "true"
+            },
+            {
+                "id": 3,
+                "unit": 201,
+                "model": "LockNess",
+                "admin_accessible": "true"
+            },
+            {
+                "id": 4,
+                "unit": 202,
+                "model": "SkeletonKey",
+                "admin_accessible": "true"
+            },
+            {
+                "id": 5,
+                "unit": 301,
+                "model": "LockNess",
+                "admin_accessible": "true"
+            }
+        ]
+    }, 
+    "people": [
+        {
+            "first_name": "Ty",
+            "last_name": "Adams",
+            "unit": "101",
+            "roles": ["Admin", "Resident"]
+        },
+        {
+            "first_name": "Mackenzie",
+            "last_name": "Carroll",
+            "unit": "102",
+            "roles": ["Resident"]
+        },
+        {
+            "first_name": "Zakiyya",
+            "last_name": "Shabazz",
+            "unit": "201",
+            "roles": ["Admin", "Resident"]
+        },
+        {
+            "first_name": "Duane",
+            "last_name": "Velásquez",
+            "unit": "202",
+            "roles": ["Resident"]
+        },
+        {
+            "first_name": "Dorothea",
+            "last_name": "Brooke",
+            "unit": "301",
+            "roles": ["Resident"]
+        },
+        {
+            "first_name": "Jian",
+            "last_name": "Ma",
+            "unit": "301",
+            "roles": ["Resident"]
+        }
+    ]
+}
